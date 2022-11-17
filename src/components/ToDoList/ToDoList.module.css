@@ -1,0 +1,142 @@
+.flexlist{
+    margin-top: 70px;
+
+}
+.buttonlist{
+    margin-left: 10px;
+    background-color: rgba(123, 453, 453, .3);
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: rgba(410, 11, 111, 0.7);
+
+
+}
+.buttonlist:hover{
+    background-color: rgba(30, 323, 31, .3);
+    box-shadow: 3px 4px 4px rgba(30, 33, 31, .1);
+}
+
+.divtable{
+    display: flex;
+    flex-wrap: nowrap;
+    /*width: 300px;*/
+    /*margin-bottom: 25px;*/
+
+    max-width: 50%;
+    margin: 70px auto 45px;
+    color: black;
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.2);
+    /*box-shadow: 4px 6px 6px 3px rgb(0 0 0 / 20%);*/
+}
+.inputlist{
+    margin: 20px auto 20px;
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    padding: 3px;
+    outline: none;
+    font-size: 16px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.closet{
+    color: gray;
+    text-decoration: line-through;
+}
+.divcheck{
+    margin-right: 15px;
+
+}
+.check{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 5px;
+    border: 1px solid fuchsia;
+    border-radius:50%;
+    cursor: pointer;
+
+}
+/*.check:checked {*/
+/*    margin-bottom: 4px;*/
+/*    border: none;*/
+/*    padding: 1.5%;*/
+/*    background-color: #3a93ea;*/
+/*}*/
+
+/*.check:checked:before {*/
+/*    padding: 3px;*/
+/*    background-color: #3a93ea;*/
+/*    border-radius:50%;*/
+/*    content:"\2713";*/
+/*    color: white;*/
+
+/*}*/
+.addbutton{
+    /*margin-left:250px ;*/
+    /*padding-bottom: 10px;*/
+    background-color: #E9EAEE;
+    padding: 0;
+    border: none;
+    font-size: 25px;
+    /*writing-mode: vertical-rl;*/
+    /*position: absolute;*/
+    transform: rotate(90deg);
+    transform-origin: top left;
+}
+.main{
+}
+.main li{
+    list-style: none;
+}
+.menuList{
+    position: relative;
+    display: flex;
+    padding: 0px 7px 0px 0px;
+}
+.subMenuList{
+    display: none;
+    position: absolute;
+    right: 55px;
+    top: 0px;
+
+}
+.menuList:hover .subMenuList{
+    display: block;
+
+}
+.subMenuList>li{
+    padding: 5px;
+}
+.blockEditing{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /*justify-content: center;*/
+    margin: 20px;
+    padding: 0px 0px 50px 0px;
+
+}
+.editingBtn{
+  padding: 20px;
+    /*margin-right: 20px;*/
+}
+.divBtn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.div__sub {
+    display: flex;
+    align-items: flex-end;
+    width: 300px;
+    /*margin-bottom: 25px;*/
+    max-width: 50%;
+    margin: 30px auto 40px 210px;
+    color: black;
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.2);
+    /*box-shadow: 4px 6px 6px 3px rgb(0 0 0 / 20%);*/
+}
